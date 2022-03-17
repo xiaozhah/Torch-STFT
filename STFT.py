@@ -1,3 +1,7 @@
+"""
+code from nnAudio's STFT and has some modification
+Working as GPU version of STFT implemented by SMS-tool
+"""
 import torch
 from torch import nn
 import numpy as np
